@@ -1,0 +1,40 @@
+baseURL = "https://minilab12.github.io//"
+languageCode = "en"
+title = "Acile"
+theme = "dream"
+defaultContentLanguage = "en"
+
+# copyright = ""
+
+# googleAnalytics = ""
+
+# disqusShortname = ""
+
+# enableRobotsTXT = true
+
+[params]
+  author = "Acile"
+  avatar = "/logo.png"
+
+  background = "#fff"
+  # backgroundImage = "/me/background.jpg"
+  linkColor = "seagreen"
+
+  # dark mode
+  # defaultDark = true
+  backgroundDark = "black"
+  # backgroundImageDark = "/me/background-dark.jpg"
+  darkLinkColor = "darkseagreen"
+  # darkNav = true
+  # dark404 = true
+
+  highlightjs = true
+  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
+  highlightjsExtraLanguages = ["ocaml"]
+  highlightjsTheme = "gruvbox-light"
+  highlightjsThemeDark = "gruvbox-dark"
+
+  enableSearch = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
